@@ -56,14 +56,14 @@ $ \frac{C(s)}{R(s)} = \frac{10(s+1)}{(s+2)(s+5)}=\frac{(1/5)(1/2)10(s+1)}{(1/2)(
 Assim podemos Traçar as assintotas, onde $T_{s2} = \frac{1}{2}$ e $T_{s5} = \frac{1}{5}$.
 """
 
-!pip install control
+# !pip install control
 
-import numpy as np
-from plotly import graph_objects as go
-from plotly.subplots import make_subplots
-from control import *
-from control.matlab import *
-from plotly import graph_objects as go
+# import numpy as np
+# from plotly import graph_objects as go
+# from plotly.subplots import make_subplots
+# from control import *
+# from control.matlab import *
+# from plotly import graph_objects as go
 
 w=np.logspace(-3,3,1000)
 
